@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import digisoft from "./company/digisoft.jpg";
+import toksnet from "./company/toksnet.png";
+import niit from "./company/niit.png";
+import chilink from "./company/chilink.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -43,6 +47,9 @@ export {
   docker,
   figma,
   git,
+  digisoft,
+  toksnet,
+  niit,
   html,
   javascript,
   mongodb,
@@ -56,6 +63,7 @@ export {
   shopify,
   starbucks,
   tesla,
+  chilink,
   carrent,
   jobit,
   tripguide,

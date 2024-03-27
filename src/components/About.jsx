@@ -38,8 +38,17 @@ const About = () => {
    </motion.div>
 
    <motion.p variants={fadeIn("", "" , 0.1, 1)} className='mt-4 text-secondary max-w-3xl leading-[30px]'>
-     I am a skilled software engineer with experience in Java, Android devleopment with Java , Python , HTML, CSS, Tailwindcss, Javascript, and expertise in frameworks like React and React Native for Mobile application development, Node.js and Three.js,
-     I am a quick learner and collaborate closely with clients to creat efficent and user-friendly solutios that solve real-world problems. Lets work together to bring your ideas to life!
+     I am a skilled female software engineer with experience in <b>Mobile Application Development</b> using React Native, Android devleopment with Java, PHP (Laravel) , also I am a <b>Fullstack Website Developer </b>, and have expertise in frameworks like React , Node.js and Three.js,
+     I am a quick learner and collaborate closely with clients to create efficent and user-friendly solutions that solve real-world problems. Lets work together to bring your ideas to life!
+ <div className='mt-4'>
+ <button
+            // type="submit"
+            download="Esther CV 2024.pdf"
+            className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">
+           Click to download my cv
+     </button>
+ </div>
+   
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

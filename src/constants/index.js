@@ -18,11 +18,15 @@ import {
   meta,
   starbucks,
   tesla,
+  digisoft,
+  niit,
+  toksnet,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  chilink,
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +46,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Mobile App Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Fullstack Web Developer",
     icon: mobile,
   },
   {
@@ -116,55 +120,68 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "SOFTWARE DEVELOPER",
+    company_name: "Toks.net (hybrid)",
+    icon: toksnet,
+    iconBg: "#ffff",
+    date: "2023 - Present",
+    points: [
+      "Heading the Tech  department, implementing project managment and organizing team.",
+      "Programming and managing applications development.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Mobile application development",
+    ],
+  },
+  {
+    title: "FRONTEND DEVELOPER",
+    company_name: "Chilink (remote)",
+    icon: chilink,
+    iconBg: "#ffffff",
+    date: "2023 - 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Working with frontend frameworks to create intrusive designs",
     ],
   },
+ 
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "PROGRAMMING TUTOR",
+    company_name: "NIIT ABUJA (on site)",
+    icon: niit,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2022 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Offering lectures on HTML, CSS, JavaScript, Python Programming, Java, JSP and Servlet, DevOps and Google Cloud Engine",
+      "Assessing students on their performance",
+      "Reviewing student’s practical projects on each technology",
+     
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "FULLSTACK DEVELOPER ",
+    company_name: "Digisoft I.T",
+    icon: digisoft,
+    iconBg: "#ffffff",
+    date: "2022",
+    points: [
+      "Developing applications for clients ",
+      "Marketing built applications",
+      "Code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "FREELANCE  DEVELOPER  ",
+    company_name: "",
+    // icon: ,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2021 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing applications for clients ",
+      "Marketing built applications",
+      "Code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];

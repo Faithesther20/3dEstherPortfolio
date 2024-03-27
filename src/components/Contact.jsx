@@ -24,16 +24,16 @@ const Contact = () => {
       setLoading(true);
 
       emailjs.send(
-        '$#####',
-        '$$$$',
+        'service_319ca98',
+        'template_8ty7sr6',
         {
           from_name:form.name,
           to_name:"Esther J. Iyege",
           from_email: form.email,
-          to_email: '$$$$',
+          to_email: 'faithesther20@gmail.com',
           message:form.message
         },
-        'J#### '
+        'BH85HP9X-HgqerkZT '
       ).then(() => {
       setLoading(false);
       alert("Thank you. I will get back to you as soon as possible.");
